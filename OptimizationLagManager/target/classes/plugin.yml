@@ -1,0 +1,22 @@
+name: OptimizationLagManager
+version: 1.0
+main: org.gw.optimizationlagmanager.OptimizationLagManager
+api-version: 1.16
+commands:
+  optimizationlagmanager:
+    description: Основная команда плагина OptimizationLagManager
+    usage: /<command> [reload|redstonelag|alerts|physics]
+    aliases: [olm]
+permissions:
+  olm.reload:
+    description: Позволяет перезагружать плагин
+    default: op
+  olm.redstonelag:
+    description: Позволяет включать/выключать лаг-машины
+    default: op
+  olm.alerts:
+    description: Позволяет управлять уведомлениями о лаг-машинах
+    default: op
+  olm.physics:
+    description: Позволяет управлять физикой блоков (падающие блоки, вода, лава)
+    default: op
